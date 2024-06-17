@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+FR+Moderne:wght@100..400&family=Playwrite+SK&display=swap');
+
+* {
+  font-family: Helvetica, sans-serif;
+}
+
+h2 {
+  background: #faebd7;
+}
+
+h2,
+h1 {
+  font-family: "Playwrite FR Moderne", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.name_pic {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+ul.contact_list {
+  padding-left: 0;
+  list-style: none;
+}
+
+ul.contact_list li {
+  display: inline-flex;
+  margin-right: 10px;
+}
+
+.name_pic .background {
+  background: url("https://images.unsplash.com/photo-1465101162946-4377e57745c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1957&q=80") center;
+  background-size: cover;
+}
+
+.name h1 {
+  font-size: 60px;
+  mix-blend-mode: lighten;
+  background: #fff;
+  margin: auto 0;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+}
+
+.name_pic .pic img {
+  max-width: 200px;
+}
+
+@media (max-width:840px) {
+  .name h1 {
+    font-size: 30px;
+  }
+
+  .name_pic .pic img {
+    max-width: 150px;
+  }
+}
